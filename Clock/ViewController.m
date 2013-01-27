@@ -53,7 +53,6 @@
     // 可変長配列作成
     NSMutableArray *oyatsu = [NSMutableArray array];
     
-    
     // 画像を配列に格納していく
     int i;
     for(i=1; i<10; i++){
