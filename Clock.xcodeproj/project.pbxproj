@@ -18,6 +18,16 @@
 		FCC36C3B16B3A8E6004D9894 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C3A16B3A8E6004D9894 /* Default-568h@2x.png */; };
 		FCC36C3E16B3A8E6004D9894 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C3C16B3A8E6004D9894 /* MainStoryboard.storyboard */; };
 		FCC36C4116B3A8E6004D9894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC36C4016B3A8E6004D9894 /* ViewController.m */; };
+		FCC36C5716B3E8F2004D9894 /* ishot-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C4D16B3E8F1004D9894 /* ishot-10.jpg */; };
+		FCC36C5816B3E8F2004D9894 /* ishot-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C4E16B3E8F1004D9894 /* ishot-9.jpg */; };
+		FCC36C5916B3E8F2004D9894 /* ishot-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C4F16B3E8F2004D9894 /* ishot-8.jpg */; };
+		FCC36C5A16B3E8F2004D9894 /* ishot-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5016B3E8F2004D9894 /* ishot-7.jpg */; };
+		FCC36C5B16B3E8F2004D9894 /* ishot-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5116B3E8F2004D9894 /* ishot-6.jpg */; };
+		FCC36C5C16B3E8F2004D9894 /* ishot-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5216B3E8F2004D9894 /* ishot-5.jpg */; };
+		FCC36C5D16B3E8F2004D9894 /* ishot-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5316B3E8F2004D9894 /* ishot-4.jpg */; };
+		FCC36C5E16B3E8F2004D9894 /* ishot-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5416B3E8F2004D9894 /* ishot-3.jpg */; };
+		FCC36C5F16B3E8F2004D9894 /* ishot-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5516B3E8F2004D9894 /* ishot-2.jpg */; };
+		FCC36C6016B3E8F2004D9894 /* ishot-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCC36C5616B3E8F2004D9894 /* ishot-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,16 @@
 		FCC36C3D16B3A8E6004D9894 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FCC36C3F16B3A8E6004D9894 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FCC36C4016B3A8E6004D9894 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCC36C4D16B3E8F1004D9894 /* ishot-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-10.jpg"; sourceTree = "<group>"; };
+		FCC36C4E16B3E8F1004D9894 /* ishot-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-9.jpg"; sourceTree = "<group>"; };
+		FCC36C4F16B3E8F2004D9894 /* ishot-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-8.jpg"; sourceTree = "<group>"; };
+		FCC36C5016B3E8F2004D9894 /* ishot-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-7.jpg"; sourceTree = "<group>"; };
+		FCC36C5116B3E8F2004D9894 /* ishot-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-6.jpg"; sourceTree = "<group>"; };
+		FCC36C5216B3E8F2004D9894 /* ishot-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-5.jpg"; sourceTree = "<group>"; };
+		FCC36C5316B3E8F2004D9894 /* ishot-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-4.jpg"; sourceTree = "<group>"; };
+		FCC36C5416B3E8F2004D9894 /* ishot-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-3.jpg"; sourceTree = "<group>"; };
+		FCC36C5516B3E8F2004D9894 /* ishot-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-2.jpg"; sourceTree = "<group>"; };
+		FCC36C5616B3E8F2004D9894 /* ishot-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ishot-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +108,16 @@
 				FCC36C3C16B3A8E6004D9894 /* MainStoryboard.storyboard */,
 				FCC36C3F16B3A8E6004D9894 /* ViewController.h */,
 				FCC36C4016B3A8E6004D9894 /* ViewController.m */,
+				FCC36C4D16B3E8F1004D9894 /* ishot-10.jpg */,
+				FCC36C4E16B3E8F1004D9894 /* ishot-9.jpg */,
+				FCC36C4F16B3E8F2004D9894 /* ishot-8.jpg */,
+				FCC36C5016B3E8F2004D9894 /* ishot-7.jpg */,
+				FCC36C5116B3E8F2004D9894 /* ishot-6.jpg */,
+				FCC36C5216B3E8F2004D9894 /* ishot-5.jpg */,
+				FCC36C5316B3E8F2004D9894 /* ishot-4.jpg */,
+				FCC36C5416B3E8F2004D9894 /* ishot-3.jpg */,
+				FCC36C5516B3E8F2004D9894 /* ishot-2.jpg */,
+				FCC36C5616B3E8F2004D9894 /* ishot-1.jpg */,
 				FCC36C2B16B3A8E6004D9894 /* Supporting Files */,
 			);
 			path = Clock;
@@ -163,6 +193,16 @@
 				FCC36C3916B3A8E6004D9894 /* Default@2x.png in Resources */,
 				FCC36C3B16B3A8E6004D9894 /* Default-568h@2x.png in Resources */,
 				FCC36C3E16B3A8E6004D9894 /* MainStoryboard.storyboard in Resources */,
+				FCC36C5716B3E8F2004D9894 /* ishot-10.jpg in Resources */,
+				FCC36C5816B3E8F2004D9894 /* ishot-9.jpg in Resources */,
+				FCC36C5916B3E8F2004D9894 /* ishot-8.jpg in Resources */,
+				FCC36C5A16B3E8F2004D9894 /* ishot-7.jpg in Resources */,
+				FCC36C5B16B3E8F2004D9894 /* ishot-6.jpg in Resources */,
+				FCC36C5C16B3E8F2004D9894 /* ishot-5.jpg in Resources */,
+				FCC36C5D16B3E8F2004D9894 /* ishot-4.jpg in Resources */,
+				FCC36C5E16B3E8F2004D9894 /* ishot-3.jpg in Resources */,
+				FCC36C5F16B3E8F2004D9894 /* ishot-2.jpg in Resources */,
+				FCC36C6016B3E8F2004D9894 /* ishot-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
