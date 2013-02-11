@@ -39,15 +39,15 @@
 
 }
 
+
 - (void)image{
-    
-    NSString *hoge = @"ishot-1.jpg";
-    UIImage *img = [UIImage imageNamed:hoge];
-    UIImageView *iv = [[UIImageView alloc] initWithImage:img];
+
+    NSString *title = @"ishot-1.jpg";
+    UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:title]];
     [self.view addSubview:iv];
 
     // 可変長配列作成
-    NSMutableArray *oyatsu = [NSMutableArray array];
+    NSMutableArray *imgBox = [NSMutableArray array];
     
     // 画像を配列に格納していく
     int i;
@@ -55,20 +55,16 @@
 
     NSMutableString *str = [[NSMutableString alloc] initWithString:@"ishot-"];
     [str appendFormat:@"%d.jpg",i];
-    NSLog(@"変数str = %@",str);
-
-    // 変数名から画像として取り込む
-    UIImage *iv = [UIImage imageNamed:str];
 
     // 配列に画像を格納
-    [oyatsu addObject:iv];
+    [imgBox addObject:[UIImage imageNamed:str]];
     }
     
-    for (id value in oyatsu) {
+    for (id value in imgBox) {
         NSLog(@"%@",value);
     }
 
-    iv.animationImages =oyatsu;
+    iv.animationImages =imgBox;
     iv.animationDuration = 10;
     [iv startAnimating];
     
