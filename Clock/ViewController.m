@@ -33,12 +33,8 @@
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 380, 320, 100)];
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
-    NSDate *date = [NSDate date];
     formatter.dateFormat = @"yyyy/MM/dd HH:mm:ss";
-    NSString *str = [formatter stringFromDate:[NSDate date]];
-    [label setText:[formatter stringFromDate:date]];
-
-    label.text = str;
+    [label setText:[formatter stringFromDate:[NSDate date]]];
     [self.view addSubview:label];
 
 }

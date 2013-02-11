@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
+
+    // タイマー機能なしだからパブリックにする必要なさげ
     NSTimer *myTicket;
+    
 }
 - (void)showDate;
 @end
