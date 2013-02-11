@@ -48,22 +48,22 @@
     [self.view addSubview:iv];
 
     // 可変長配列作成
-    NSMutableArray *imgBox = [NSMutableArray array];
+    NSMutableArray *imgBox = [[NSMutableArray alloc]init];
     
     
     // 画像を配列に格納していく
     int i;
-    for(i=1; i<10; i++){
+    for(i=37; i<636; i++){
         
-    NSMutableString *str = [[NSMutableString alloc] initWithFormat:@"ishot-%d.jpg",i];
-        
+    NSMutableString *str = [[NSMutableString alloc] initWithFormat:@"ishot-%d.png",i];
     // 配列に画像を格納
     [imgBox addObject:[UIImage imageNamed:str]];
         
     }
     
     iv.animationImages =imgBox;
-    iv.animationDuration = 10;
+    iv.animationDuration = imgBox.count;
+
     [iv startAnimating];
 }
 
