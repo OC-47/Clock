@@ -10,9 +10,15 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end
 
 @implementation ViewController
+
+@synthesize imageView;
+@synthesize label;
 
 
 - (void)viewDidLoad
@@ -25,7 +31,6 @@
                                    selector:@selector(showDate)
                                    userInfo:nil
                                     repeats:YES];
-
 }
 
 

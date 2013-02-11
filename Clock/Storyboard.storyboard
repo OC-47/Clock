@@ -38,8 +38,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="6QG-S7-mWU" id="Se2-fj-M07"/>
-                        <outlet property="label" destination="NK2-HZ-C13" id="fWw-P0-zSB"/>
+                        <outlet property="imageView" destination="6QG-S7-mWU" id="mdy-Ct-LQL"/>
+                        <outlet property="label" destination="NK2-HZ-C13" id="FFe-AC-LkU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PQG-Tl-vHy" userLabel="First Responder" sceneMemberID="firstResponder"/>
