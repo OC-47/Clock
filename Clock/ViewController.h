@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController {
+
+    
+
+    __weak IBOutlet UIImageView *imageView;
+    __weak IBOutlet UILabel *label;
+
 }
 
 @end

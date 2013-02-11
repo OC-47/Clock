@@ -31,21 +31,15 @@
 
 - (void) showDate{
     
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 380, 320, 100)];
-    
     NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
     formatter.dateFormat = @"yyyy/MM/dd HH:mm:ss";
     [label setText:[formatter stringFromDate:[NSDate date]]];
-    [self.view addSubview:label];
 
 }
 
 
 - (void)image{
 
-    NSString *title = @"ishot-1.jpg";
-    UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:title]];
-    [self.view addSubview:iv];
 
     // 可変長配列作成
     NSMutableArray *imgBox = [[NSMutableArray alloc]init];
@@ -61,10 +55,10 @@
         
     }
     
-    iv.animationImages =imgBox;
-    iv.animationDuration = imgBox.count;
+    imageView.animationImages =imgBox;
+    imageView.animationDuration = imgBox.count;
 
-    [iv startAnimating];
+    [imageView startAnimating];
 }
 
 @end
