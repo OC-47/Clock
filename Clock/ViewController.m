@@ -53,8 +53,7 @@
     int i;
     for(i=1; i<10; i++){
 
-    NSMutableString *str = [[NSMutableString alloc] initWithString:@"ishot-"];
-    [str appendFormat:@"%d.jpg",i];
+    NSMutableString *str = [[NSMutableString alloc] initWithFormat:@"ishot-%d.jpg",i];
 
     // 配列に画像を格納
     [imgBox addObject:[UIImage imageNamed:str]];
