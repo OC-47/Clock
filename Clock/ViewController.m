@@ -19,12 +19,13 @@
 {
     [super viewDidLoad];
     [self image];
-    
-    myTicket = [NSTimer scheduledTimerWithTimeInterval:0.5
-                                                target:self
-                                              selector:@selector(showDate)
-                                              userInfo:nil
-                                               repeats:YES];
+
+    [NSTimer scheduledTimerWithTimeInterval:0.5
+                                     target:self
+                                   selector:@selector(showDate)
+                                   userInfo:nil
+                                    repeats:YES];
+
 }
 
 
@@ -49,31 +50,21 @@
     // 可変長配列作成
     NSMutableArray *imgBox = [NSMutableArray array];
     
+    
     // 画像を配列に格納していく
     int i;
     for(i=1; i<10; i++){
-
+        
     NSMutableString *str = [[NSMutableString alloc] initWithFormat:@"ishot-%d.jpg",i];
-
+        
     // 配列に画像を格納
     [imgBox addObject:[UIImage imageNamed:str]];
+        
     }
     
-    for (id value in imgBox) {
-        NSLog(@"%@",value);
-    }
-
     iv.animationImages =imgBox;
     iv.animationDuration = 10;
     [iv startAnimating];
-    
-}
-
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
